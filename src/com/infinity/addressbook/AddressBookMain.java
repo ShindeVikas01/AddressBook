@@ -8,6 +8,9 @@ public class AddressBookMain {
 		 * Welcome message for user
 		 */
 		System.out.println("Welcome to AddressBook Program");
+		AddressBook addressBook = new AddressBook();
+		addressBook.addContact();
+		addressBook.showContact();
 	}
 
 }
